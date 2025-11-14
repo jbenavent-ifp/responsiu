@@ -27,7 +27,9 @@ p{
     width: 100%;
     scale: 0 1;
     animation: analitzador linear;
-    animation-timeline: scroll();
+    -webkit-animation-timeline:scroll();
+       -mozanimation-timeline:scroll();
+           animation-timeline:scroll();
 }
 
 @keyframes analitzador{
